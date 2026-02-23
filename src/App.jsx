@@ -11,9 +11,26 @@ function App () {
       <h2>Welcome to my website!</h2>
       <Food />
       <br></br>
-      <br></br>
-      <Card/>
-    </main>
+      <Card
+          emoji="👤"
+          title="About Me"
+          description="I am a 12th grader who loves boba"
+          extra="Fun Fact: I love daniel caesar"
+        />
+
+        <Card
+          emoji="🙌"
+          title="Favorite Hobby"
+          description="Volunteering"
+          extra="I like helping my"
+        />
+
+        <Card
+          emoji="🥟"
+          title="Dream Job"
+          description="Food Critic"
+          extra="I like eating"
+        />    </main>
     <Footer />
   </div>
   );
