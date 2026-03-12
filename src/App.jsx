@@ -2,40 +2,33 @@ import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import Food from "./components/Food.jsx";
 import Card from "./components/Card.jsx";
+import LikeButton from "./components/LikeButton.jsx";
 
 function App () {
   return (
     <div>
     <Header/>
     <main>
-      <h2>Welcome to my website!</h2>
-      <Food />
-      <br></br>
-      <br></br>
-      <Card
-          emoji="👤"
-          title="About Me"
-          description="I am a 12th grader who loves boba"
-          extra="Fun Fact: I love daniel caesar"
-        />
-      <br></br>
-        <Card
-          emoji="🙌"
-          title="Favorite Hobby"
-          description="Volunteering"
-          extra="I love helping my community out"
-        />
-      <br></br>
+
 
         <Card
-          emoji="🥟"
-          title="Dream Job"
-          description="Food Critic"
-          extra="I like eating"
-        />    </main>
+          name = "👤 Gabby"
+          title="Designer"
+          blurb ="Loves making things look good"
+          github="https://github.com/gabbyylu/bobalicious"
+          skills="CSS, Tailwind, Javascript"
+          gif1="https://media.tenor.com/9EWwYOJnM_oAAAAM/cute-cats.gif"
+
+                  /> 
+                  <LikeButton/>
+                     </main>
       <br></br>
 
     <Footer />
+    <h1 className="text-4xl font-bold text-blue-600 bg-yellow-100 p-8 rounded-xl">
+  Tailwind is working!
+</h1>
+
   </div>
   );
 }
